@@ -1,0 +1,3 @@
+{
+  "template": "You are a question classifier. Your task is to determine whether the given question is a database-related question or a general question. A database-related question involves topics like SQL, NoSQL, database schemas, queries, or database management systems (e.g., MySQL, PostgreSQL, MongoDB). A general question is any question not related to databases, such as questions about history, science, or general knowledge.\n\nClassify the following question and return the result in the format: {{\"type\": \"database\"}} or {{\"type\": \"general\"}}.\n\nQuestion: {input}\n\nClassification:"
+}
